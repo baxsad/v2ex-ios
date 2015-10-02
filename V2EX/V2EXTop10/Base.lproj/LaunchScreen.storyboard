@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="01J-lp-oVM">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="V2EX" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gUj-Np-oG1">
+                                <rect key="frame" x="-4" y="130" width="383" height="70"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="70" id="sKd-wf-iph"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="57"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="创意工作者们的社区" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Qk-fB-7EB">
+                                <rect key="frame" x="-4" y="208" width="383" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="UQI-CM-V1P"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="LaoSangamMN" family="Lao Sangam MN" pointSize="12"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" Do have faith in what you're doing. @ v2ex.com" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kBm-54-k2U">
+                                <rect key="frame" x="-4" y="620" width="383" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="ibK-q4-GOj"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="LaoSangamMN" family="Lao Sangam MN" pointSize="12"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="gUj-Np-oG1" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="110" id="6qf-dZ-9Yi"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="kBm-54-k2U" secondAttribute="bottom" constant="26" id="GBo-Ef-1k5"/>
+                            <constraint firstItem="gUj-Np-oG1" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="-20" id="X5Z-52-Amm"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="gUj-Np-oG1" secondAttribute="trailing" constant="-20" id="g14-gl-dhL"/>
+                            <constraint firstItem="1Qk-fB-7EB" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="-20" id="jcI-ww-9hd"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="kBm-54-k2U" secondAttribute="trailing" constant="-20" id="lOv-1k-bYx"/>
+                            <constraint firstItem="kBm-54-k2U" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="-20" id="q6y-V2-RNP"/>
+                            <constraint firstItem="1Qk-fB-7EB" firstAttribute="top" secondItem="gUj-Np-oG1" secondAttribute="bottom" constant="8" id="wDf-aV-55w"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="1Qk-fB-7EB" secondAttribute="trailing" constant="-20" id="z1r-hk-z9v"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="329.5" y="352.5"/>
+        </scene>
+    </scenes>
+</document>

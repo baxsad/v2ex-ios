@@ -1,0 +1,24 @@
+{
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "93596bd2-0dc3-f74b-bcd7-aa8426d3b99b++8664" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "93596bd2-0dc3-f74b-bcd7-aa8426d3b99b++8664" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "AEEDFDC2-9A0D-4C92-B9E3-FEAAE67A765E",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "93596bd2-0dc3-f74b-bcd7-aa8426d3b99b++8664" : "V2EXTop10\/CLASS\/json\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "V2EXTop10",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "V2EXTop10.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "svn:\/\/sinofreely.f3322.org\/dlcm",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "93596bd2-0dc3-f74b-bcd7-aa8426d3b99b++8664"
+    }
+  ]
+}
